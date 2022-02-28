@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 '''
-@Project ：CNN_LSTM
-@File    ：train.py
+@Project ：Transformer
+@File    ：transformer.py
 @IDE     ：PyCharm 
 @Author  ：XinYi Huang
 '''
@@ -10,9 +10,8 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.layers import Input
 from tensorflow.keras.models import Model
-from CustomLayers import (Transformer,
-                          CustomSchedule,
-                          MaskedSparseCategoricalCrossentropy)
+from net.networks import Transformer
+from utils._utils import CustomSchedule, MaskedSparseCategoricalCrossentropy
 
 tf.config.run_functions_eagerly(True)
 # 用于可变形状特征的训练加速

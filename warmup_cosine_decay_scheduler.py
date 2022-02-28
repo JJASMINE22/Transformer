@@ -1,3 +1,11 @@
+# -*- coding: UTF-8 -*-
+'''
+@Project ：Transformer
+@File    ：warmup_cosine_decay_scheduler.py
+@IDE     ：PyCharm
+@Author  ：XinYi Huang
+'''
+
 import numpy as np
 
 def cosine_decay_with_warmup(global_step,
