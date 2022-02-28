@@ -16,7 +16,7 @@
 
 ## 模型结构
 Transformer
-![image]()
+![image](https://github.com/JJASMINE22/Transformer/blob/master/structure/structure.png)
 
 ## 注意事项
 1. 该tf2版本的Transformer将mask计算过程整合于模型的推理过程
@@ -27,7 +27,7 @@ Transformer
 
 ## 位置编码
 以序列长度max_seq_len=32，嵌入维度embedding_size=512为例，位置编码特征：  
-![image]()  
+![image](https://github.com/JJASMINE22/Transformer/blob/master/position_encoding/position_encoding.png)  
 通过颜色深浅能明细反映三角波属性
 
 ## 训练步骤
